@@ -1,7 +1,7 @@
 
-#import "RNXhhtest1.h"
+#import "RNXhhtestmd.h"
 
-@implementation RNXhhtest1
+@implementation RNXhhtestmd
 
 - (dispatch_queue_t)methodQueue
 {

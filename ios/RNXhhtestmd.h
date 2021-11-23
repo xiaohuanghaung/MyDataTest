@@ -5,7 +5,7 @@
 #import <React/RCTBridgeModule.h>
 #endif
 
-@interface RNXhhtest1 : NSObject <RCTBridgeModule>
+@interface RNXhhtestmd : NSObject <RCTBridgeModule>
 
 @end
   

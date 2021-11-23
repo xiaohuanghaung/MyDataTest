@@ -1,6 +1,7 @@
 
 import { NativeModules } from 'react-native';
+import TestAnalysis from '../xhhtestmd/src/TestAnalysis'
 
-const { RNXhhtest1 } = NativeModules;
+const { RNXhhtestmd } = NativeModules;
 
-export default RNXhhtest1;
+export default RNXhhtestmd;

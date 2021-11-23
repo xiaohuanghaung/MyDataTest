@@ -1,22 +1,22 @@
 
-package com.library.dashixiong;
+package com.reactlibrary;
 
 import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
 
-public class RNXhhtest1Module extends ReactContextBaseJavaModule {
+public class RNXhhtestmdModule extends ReactContextBaseJavaModule {
 
   private final ReactApplicationContext reactContext;
 
-  public RNXhhtest1Module(ReactApplicationContext reactContext) {
+  public RNXhhtestmdModule(ReactApplicationContext reactContext) {
     super(reactContext);
     this.reactContext = reactContext;
   }
 
   @Override
   public String getName() {
-    return "RNXhhtest1";
+    return "RNXhhtestmd";
   }
 }
