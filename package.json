@@ -1,9 +1,9 @@
 
 {
   "name": "react-native-lxj-analysis",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,6 @@
   "author": "",
   "license": "",
   "peerDependencies": {
-    "react-native": "^0.41.2",
-    "react-native-windows": "0.41.0-rc.1"
+    "react-native": "0.63.4"
   }
 }

@@ -1,4 +1,5 @@
-import {NativeModules} from 'react-native';
+import react from 'react'
+import { NativeModules } from 'react-native';
 const FedTrackReactModule = NativeModules.FedTrackReactModule;
 
 export default class TestAnalysis {
@@ -8,8 +9,8 @@ export default class TestAnalysis {
    * @param event 事件
    * @param page 页
    */
-   public static sentAnalysisPage(evventName: string, eventEx: string, pageEx:string) {
-    FedTrackReactModule.sentAnalysisPage(evventName, eventEx, pageEx);
+   public static sentAnalysisPage(evventName: string, data: string, eventEx: string, pageEx:string) {
+    FedTrackReactModule.sentAnalysisPage(evventName, data, eventEx, pageEx);
   }
 
   /**
@@ -17,8 +18,8 @@ export default class TestAnalysis {
    * @param evventName 事件名称
    * @param event 事件
    */
-   public static sentAnalysisEvent(evventName: string, eventEx: string, pageEx:string) {
-    FedTrackReactModule.sentAnalysisEvent(evventName, eventEx, pageEx);
+   public static sentAnalysisEvent(evventName: string, data: string, eventEx: string, pageEx:string) {
+    FedTrackReactModule.sentAnalysisEvent(evventName, data, eventEx, pageEx);
   }
 
 
